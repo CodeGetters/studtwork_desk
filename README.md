@@ -64,7 +64,7 @@ Sponsor this project to support our better creation. It is recommended to use af
         <img src='./public/wechat.jpg' style="height:300px;margin-right:50px; object-fit:contain" />
     </a>
     <a src="./public/alipay.jpg">
-        <img src='./public/alipay.jpg' style="height:300px; object-fit:contain" />
+        <img src='./public/Alipay.jpg' style="height:300px; object-fit:contain" />
     </a>
 </div>
 
