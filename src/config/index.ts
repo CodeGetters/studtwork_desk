@@ -4,6 +4,13 @@ export const config = {
   layout: {
     header: {
       logo: logo,
+      // linkList: [
+      //   {
+      //     path: "",
+      //     title: "",
+      //     href: "",
+      //   },
+      // ],
     },
   },
 };

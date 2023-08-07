@@ -3,6 +3,7 @@ import vueSvg from "@/assets/vue.svg";
 import { watch } from "vue";
 import { useDark, useTitle, useToggle } from "@vueuse/core";
 import Header from "@/layout/Header.vue";
+import Container from "@/layout/Container.vue";
 
 const isDark = useDark();
 const toggleDark = useToggle(isDark);
@@ -15,6 +16,7 @@ watch(isDark, () => {
 
 <template>
   <Header />
+  <Container />
   <div class="bg-red w100% h100% .dark:bg-black">
     <button @click="toggleDark()">{{ isDark }}</button>
     <a href="https://vitejs.dev" target="_blank">
