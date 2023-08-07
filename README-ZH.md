@@ -4,20 +4,20 @@
 
 <h1 align="center">StudTWork</h1>
 
-English | [简体中文](./README-ZH.md)
+[English](./README.md) | 简体中文
 
 ---
 
 ## Install
 
-require:
+需要:
 
 - node >= `16`
 
 ```shell
 $ git clone https://github.com/CodeGetters/studTWork.git
 
-# Recommend to use yarn
+# 推荐
 $ yarn install
 
 # or using npm
@@ -25,7 +25,7 @@ $ yarn install
 $ npm install
 ```
 
-## Usage
+## 使用
 
 ```shell
 # dev
@@ -35,36 +35,36 @@ $ yarn dev
 $ yarn build
 ```
 
-## Contribute
+## 贡献
 
 If you would like to work on the TODO project, please submit your pr to the dev branch 👀
 
 Most important: Run a command to check your code before committing it 🤞
 
-## Community
+## 交流
 
-We recommend that [issue](https://github.com/CodeGetters/studtwork_desk/issues) be used for problem feedback, or others:
+我们建议使用 [issue](https://github.com/CodeGetters/studtwork_desk/issues) 进行问题反馈，或其他:
 
-- WeChat group
+- 微信群
 
-Under preparation...
+正在筹备中
 
-## Sponsor this project
+## 赞助这个项目
 
-Sponsor this project to support our better creation. It is recommended to use afdian to subscribe, and your avatar will appear in this project.
+赞助这个项目，支持我们更好的创作。建议使用爱发电订阅，您的头像将出现在此项目中。
 
-### Afdian
+### 爱发电
 
 [https://afdian.net/a/studtwork](https://afdian.net/a/studtwork)
 
-### Wechat / Alipay
+### 微信 / 支付宝
 
 <div style="display:flex;">
     <a src="./public/wechat.jpg">
         <img src='./public/wechat.jpg' style="height:300px;margin-right:50px; object-fit:contain" />
     </a>
     <a src="./public/alipay.jpg">
-        <img src='./public/Alipay.jpg' style="height:300px; object-fit:contain" />
+        <img src='./public/alipay.jpg' style="height:300px; object-fit:contain" />
     </a>
 </div>
 
@@ -72,4 +72,4 @@ Sponsor this project to support our better creation. It is recommended to use af
 
 [MIT](./LICENSE)
 
-> A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+> 一种简短而简单的许可协议，只要求保留版权和许可声明。许可作品、修改版本和更大的作品可以在不同的条款下发布，并且不需要源代码。
