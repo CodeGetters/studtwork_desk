@@ -18,6 +18,9 @@ export default ({ mode }) => {
         "@": resolve(__dirname, "src"),
       },
     },
+    optimizeDeps: {
+      include: ["vue", "vue-router", "@vueuse/core", "dayjs"],
+    },
     server: {
       proxy: {
         "/api/": {
@@ -28,17 +31,11 @@ export default ({ mode }) => {
       },
     },
     build: {
-      // 静态资源合并打包
       rollupOptions: {
-        // 确保外部化处理不想打包进库的依赖
         output: {
-          // 入口文件名
           entryFileNames: "assets/js/[name].js",
-          // 块文件名
           chunkFileNames: "assets/js/[name]-[hash].js",
-          // 资源文件名
           assetFileNames: "assets/[ext]/[name]-[hash]-.[ext]",
-          // 静态资源分拆打包---视频等超大文件
           manualChunks(id) {
             if (id.includes("node_modules")) {
               return id
@@ -57,7 +54,7 @@ export default ({ mode }) => {
       UnoCss(),
       ViteCompression(),
       AutoImport({
-        imports: ["vue", "vue-router"],
+        imports: ["vue", "vue-router", "@vueuse/core", "@vueuse/head"],
       }),
       tsChecker({
         typescript: true,

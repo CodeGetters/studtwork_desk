@@ -1,9 +1,20 @@
 <script setup lang="ts">
 import vueSvg from "@/assets/vue.svg";
+import { watch } from "vue";
+import { useDark, useTitle, useToggle } from "@vueuse/core";
+
+const isDark = useDark();
+const toggleDark = useToggle(isDark);
+const title = useTitle("Set title");
+
+watch(isDark, () => {
+  title.value = isDark.value ? "🌙 Good evening!" : "☀️ Good morning!";
+});
 </script>
 
 <template>
-  <div class="bg-red w100% h100%">
+  <div class="bg-red w100% h100% .dark:bg-black">
+    <button @click="toggleDark()">{{ isDark }}</button>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
