@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "CascadiaCode";
+  src: url("../fonts/CascadiaCode.ttf");
+}
+
+@font-face {
+  font-family: "CascadiaCodeItalic";
+  src: url("../fonts/CascadiaCodeItalic.ttf");
+}
+
+body {
+  font-family: "CascadiaCode";
+}

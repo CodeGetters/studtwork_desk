@@ -2,6 +2,7 @@
 import vueSvg from "@/assets/vue.svg";
 import { watch } from "vue";
 import { useDark, useTitle, useToggle } from "@vueuse/core";
+import Header from "@/layout/Header.vue";
 
 const isDark = useDark();
 const toggleDark = useToggle(isDark);
@@ -13,8 +14,16 @@ watch(isDark, () => {
 </script>
 
 <template>
+  <Header />
   <div class="bg-red w100% h100% .dark:bg-black">
     <button @click="toggleDark()">{{ isDark }}</button>
+    <div
+      class="w-full h100px flex items-center justify-center gap-x-4 text-4xl p-2 mt-4"
+    >
+      <div class="grommet-icons:github:file-type-light-pnpm?mask" />
+      <span class="grommet-icons:apple"></span>
+      <!-- <div class="i-vscode-icons:file-type-light-pnpm?mask text-red-300" /> -->
+    </div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>

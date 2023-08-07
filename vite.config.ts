@@ -19,7 +19,7 @@ export default ({ mode }) => {
       },
     },
     optimizeDeps: {
-      include: ["vue", "vue-router", "@vueuse/core", "dayjs"],
+      include: ["vue", "vue-router", "@vueuse/core"],
     },
     server: {
       proxy: {
