@@ -36,7 +36,6 @@
     "@bytemd/vue-next": "^1.21.0",
     "@commitlint/cli": "^17.6.7",
     "@commitlint/config-conventional": "^17.6.7",
-    "@iconify-json/grommet-icons": "^1.1.7",
     "@types/node": "^20.4.8",
     "@unhead/vue": "^1.2.2",
     "@unocss/preset-icons": "^0.54.1",

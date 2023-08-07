@@ -4,12 +4,7 @@ export default defineConfig({
   presets: [
     presetUno(),
     presetIcons({
-      collections: {
-        carbon: () =>
-          import("@iconify-json/grommet-icons/icons.json").then(
-            (i) => i.default,
-          ),
-      },
+      cdn: "https://esm.sh/",
       extraProperties: {
         display: "inline-block",
         height: "1.2em",

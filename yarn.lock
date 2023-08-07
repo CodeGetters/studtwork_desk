@@ -715,14 +715,7 @@
   resolved "https://registry.npmmirror.com/@esbuild/win32-x64/-/win32-x64-0.18.17.tgz#bcb2e042631b3c15792058e189ed879a22b2968b"
   integrity sha512-fGEb8f2BSA3CW7riJVurug65ACLuQAzKq0SSqkY2b2yHHH0MzDfbLyKIGzHwOI/gkHcxM/leuSW6D5w/LMNitA==
 
-"@iconify-json/grommet-icons@^1.1.7":
-  version "1.1.7"
-  resolved "https://registry.npmmirror.com/@iconify-json/grommet-icons/-/grommet-icons-1.1.7.tgz#f29ad8fc5ef2acc99acad0cf39176f569f415c14"
-  integrity sha512-2I4ZMKp26ySyZB8ZkfY0goPdRmOqs0ZZFHi+2OB49v7XIi10n9wKncDdvlF3Gmb5Ct9YcM2BwGd7prc0S07gNQ==
-  dependencies:
-    "@iconify/types" "*"
-
-"@iconify/types@*", "@iconify/types@^2.0.0":
+"@iconify/types@^2.0.0":
   version "2.0.0"
   resolved "https://registry.npmmirror.com/@iconify/types/-/types-2.0.0.tgz#ab0e9ea681d6c8a1214f30cd741fe3a20cc57f57"
   integrity sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==
