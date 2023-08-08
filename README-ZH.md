@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="/favicon.svg">
+    <img src="/public/favicon.svg">
 </p>
 
 <h1 align="center">StudTWork</h1>
