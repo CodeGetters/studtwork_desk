@@ -12,5 +12,9 @@ export const config = {
       //   },
       // ],
     },
+    footer: {
+      author: "JohnsonXin",
+      startYear: 2023,
+    },
   },
 };

@@ -70,6 +70,7 @@ Sponsor this project to support our better creation. It is recommended to use af
 
 ## License
 
-[MIT](./LICENSE)
+code is licensed under [MIT](./LICENSE),
+words and images are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 > A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.

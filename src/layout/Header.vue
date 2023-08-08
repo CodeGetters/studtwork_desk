@@ -12,14 +12,19 @@ import { JumpLinkTo } from "@/utils/useJump";
 <template>
   <div id="Header" class="header w100% h50px bg-#fff .dark:bg-black">
     <div
-      class="py-5px px-80px h40px flex items-center leading-40px justify-between"
+      class="py-5px mx-80px h40px flex items-center leading-40px justify-between"
     >
+      <!-- logo -->
       <div
-        class="flex h40px select-none cursor-pointer"
+        class="flex h40px select-none cursor-pointer w9%"
         @click="JumpLinkTo('/', {})"
       >
         <div class="logo w40px h40px mr-6px">
-          <img class="w100% h100%" :src="logo" alt="StudTWork" />
+          <img
+            class="w100% h100% transform transition-800 hover:rotate-180"
+            :src="logo"
+            alt="StudTWork"
+          />
         </div>
         <span class=".dark:text-#fff">StudTWork</span>
       </div>
@@ -70,13 +75,13 @@ import { JumpLinkTo } from "@/utils/useJump";
 }
 
 .item {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
   color: black;
   cursor: pointer;
   text-align: center;
-  margin-right: 5px;
-  margin-left: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .item a {
