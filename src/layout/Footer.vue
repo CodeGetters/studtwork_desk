@@ -6,7 +6,7 @@ const { startYear } = config.layout.footer;
 </script>
 
 <template>
-  <div id="Footer" class="w100%">
+  <div id="Footer" class="w100% my-30px">
     <div class="protocol w460px m-auto text-#8581818a selection:text-#000">
       <a
         href="https://creativecommons.org/licenses/by-nc-sa/4.0/"

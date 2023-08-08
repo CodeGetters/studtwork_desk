@@ -6,6 +6,7 @@ import tsChecker from "vite-plugin-checker";
 import AutoImport from "unplugin-auto-import/vite";
 import UnoCss from "unocss/vite";
 import ViteCompression from "vite-plugin-compression";
+import Markdown from "vite-plugin-vue-markdown";
 
 // https://vitejs.dev/config/
 export default ({ mode }) => {
@@ -49,7 +50,10 @@ export default ({ mode }) => {
       },
     },
     plugins: [
-      vue(),
+      vue({
+        include: [/\.vue$/, /\.md$/],
+      }),
+      Markdown(),
       ViteDelTool(),
       UnoCss(),
       ViteCompression(),

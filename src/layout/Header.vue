@@ -29,7 +29,7 @@ import { JumpLinkTo } from "@/utils/useJump";
         <span class=".dark:text-#fff">StudTWork</span>
       </div>
       <div class="menuList flex items-center h30px">
-        <router-link to="/home" title="home" class="item">
+        <router-link to="/" title="home" class="item">
           <span>Home</span>
         </router-link>
         <router-link to="/blog" title="blog" class="item">

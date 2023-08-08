@@ -1,12 +1,14 @@
 <script setup lang="ts">
-import MarkView from "@/components/MarkView.vue";
-const value = "input";
+// import MarkView from "@/components/MarkView.vue";
+// const value = "input";
+import HelloWorld from "../../README.md";
 </script>
 
 <template>
-  <div id="Container" class="w100% h80vh bg-#fff .dark:bg-black">
+  <div id="Container" class="w100% bg-#fff .dark:bg-black">
     <div class="w40% m-auto container text-black .dark:text-#fff">
-      <MarkView :text-value="value" />
+      <!-- <MarkView :text-value="value" /> -->
+      <HelloWorld />
     </div>
   </div>
 </template>

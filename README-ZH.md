@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./public/favicon.svg">
+    <img src="/favicon.svg">
 </p>
 
 <h1 align="center">StudTWork</h1>
@@ -24,6 +24,10 @@ $ yarn install
 
 $ npm install
 ```
+
+## UnoCSS
+
+查看 UnoCSS 编译后的文件---运行后查看 http://127.0.0.1:9000/__unocss#/
 
 ## 使用
 
@@ -60,11 +64,11 @@ Most important: Run a command to check your code before committing it 🤞
 ### 微信 / 支付宝
 
 <div style="display:flex;">
-    <a src="./public/wechat.jpg">
-        <img src='./public/wechat.jpg' style="height:300px;margin-right:50px; object-fit:contain" />
+    <a src="/wechat.jpg">
+        <img src='/wechat.jpg' style="height:300px;margin-right:50px; object-fit:contain" />
     </a>
     <a src="./public/alipay.jpg">
-        <img src='./public/alipay.jpg' style="height:300px; object-fit:contain" />
+        <img src='/alipay.jpg' style="height:300px; object-fit:contain" />
     </a>
 </div>
 

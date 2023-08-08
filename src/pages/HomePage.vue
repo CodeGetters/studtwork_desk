@@ -5,9 +5,9 @@ import Footer from "@/layout/Footer.vue";
 </script>
 
 <template>
-  <div id="HomePage" class="bg-#fff .dark:bg-black">
+  <div id="HomePage" class="w100% h100% bg-#fff .dark:bg-black">
     <Header />
-    <main class="mt-20px h100vh overflow-hidden">
+    <main class="mt-20px overflow-hidden">
       <Container />
       <Footer />
     </main>

@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./public/favicon.svg">
+    <img src="/favicon.svg">
 </p>
 
 <h1 align="center">StudTWork</h1>
@@ -60,11 +60,11 @@ Sponsor this project to support our better creation. It is recommended to use af
 ### Wechat / Alipay
 
 <div style="display:flex;">
-    <a src="./public/wechat.jpg">
-        <img src='./public/wechat.jpg' style="height:300px;margin-right:50px; object-fit:contain" />
+    <a src="/wechat.jpg">
+        <img src='/wechat.jpg' style="height:300px;margin-right:50px; object-fit:contain" />
     </a>
     <a src="./public/alipay.jpg">
-        <img src='./public/Alipay.jpg' style="height:300px; object-fit:contain" />
+        <img src='/Alipay.jpg' style="height:300px; object-fit:contain" />
     </a>
 </div>
 
