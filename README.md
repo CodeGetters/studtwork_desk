@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="/favicon.svg">
+    <img src="./public/favicon.svg">
 </p>
 
 <h1 align="center">StudTWork</h1>
@@ -60,11 +60,11 @@ Sponsor this project to support our better creation. It is recommended to use af
 ### Wechat / Alipay
 
 <div style="display:flex;">
-    <a href="http://cdn.reday.asia/images/202308081720863.jpg">
-        <img src='http://cdn.reday.asia/images/202308081720863.jpg' style="height:300px;margin-right:50px; object-fit:contain" />
+    <a href="./public/wechat.jpg">
+        <img src='./public/wechat.jpg' style="height:300px;margin-right:50px; object-fit:contain" />
     </a>
-    <a href="http://cdn.reday.asia/images/202308081719043.jpg">
-        <img src='http://cdn.reday.asia/images/202308081719043.jpg' style="height:300px; object-fit:contain" />
+    <a href="./public/alipay.jpg">
+        <img src='./public/Alipay.jpg' style="height:300px; object-fit:contain" />
     </a>
 </div>
 

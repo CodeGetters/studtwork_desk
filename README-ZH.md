@@ -64,11 +64,11 @@ Most important: Run a command to check your code before committing it 🤞
 ### 微信 / 支付宝
 
 <div style="display:flex;">
-    <a href="http://cdn.reday.asia/images/202308081720863.jpg">
-        <img src='http://cdn.reday.asia/images/202308081720863.jpg' style="height:300px;margin-right:50px; object-fit:contain" />
+    <a href="./public/wechat.jpg">
+        <img src='./public/wechat.jpg' style="height:300px;margin-right:50px; object-fit:contain" />
     </a>
-    <a href="http://cdn.reday.asia/images/202308081719043.jpg">
-        <img src='http://cdn.reday.asia/images/202308081719043.jpg' style="height:300px; object-fit:contain" />
+    <a href="./public/alipay.jpg">
+        <img src='./public/Alipay.jpg' style="height:300px; object-fit:contain" />
     </a>
 </div>
 
