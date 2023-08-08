@@ -1,11 +1,37 @@
-.markdown-body p a {
+.markdown-body {
+  color: #aaa;
+}
+
+.dark .markdown-body {
+  color: #aaa;
+}
+
+.markdown-body p a,
+.markdown-body a {
   color: #aaa;
   text-decoration: underline dashed #aaa;
 }
 
-.markdown-body p a:hover {
+.markdown-body p {
+  color: #aaa;
+}
+
+.markdown-body p a:hover,
+.markdown-body a:hover {
   color: #000;
 }
-.dark .markdown-body p a:hover {
+
+.dark .markdown-body p a:hover,
+.dark .markdown-body a:hover {
   color: #fff;
+}
+
+.markdown-body::selection,
+.markdown-body p::selection,
+.markdown-body a::selection {
+  color: #000;
+  background-color: aliceblue;
+}
+.markdown-body h1::selection {
+  background-color: aliceblue;
 }

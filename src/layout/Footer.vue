@@ -7,7 +7,9 @@ const { startYear } = config.layout.footer;
 
 <template>
   <div id="Footer" class="w100% my-30px">
-    <div class="protocol w460px m-auto text-#8581818a selection:text-#000">
+    <div
+      class="protocol w460px m-auto text-#8581818a text-14px selection:text-#000"
+    >
       <a
         href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
         target="_blank"
@@ -24,7 +26,7 @@ a:hover {
   text-decoration: underline dotted #8581818a;
 }
 
-#Footer .protocol a::selection {
+.protocol a::selection {
   color: #000;
 }
 
@@ -33,7 +35,7 @@ a:hover {
 }
 
 .dark .protocol::selection,
-.protocol a::selection {
+.dark .protocol a::selection {
   color: #ccc;
 }
 </style>
