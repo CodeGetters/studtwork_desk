@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { config } from "@/config";
 
-const { startYear, author } = config.layout.footer;
+const { author } = config;
+const { startYear } = config.layout.footer;
 </script>
 
 <template>

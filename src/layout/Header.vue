@@ -29,32 +29,47 @@ import { JumpLinkTo } from "@/utils/useJump";
         <span class=".dark:text-#fff">StudTWork</span>
       </div>
       <div class="menuList flex items-center h30px">
-        <a href="" class="item"><span>Home</span></a>
-        <a href="" class="item"><span>Blog</span></a>
-        <a
-          href=""
+        <router-link to="/home" title="home" class="item">
+          <span>Home</span>
+        </router-link>
+        <router-link to="/blog" title="blog" class="item">
+          <span>Blog</span>
+        </router-link>
+
+        <router-link
+          to="/projects"
+          title="projects"
           class="w80px text-center mx10px text-#aaa hover:text-#000 .dark:text-#aaa .dark:hover:text-#fff"
-          ><span class="selection:text-#000 dark:selection:text-#fff"
+        >
+          <span class="selection:text-#000 dark:selection:text-#fff"
             >Projects</span
-          ></a
-        >
-        <a
-          href=""
+          >
+        </router-link>
+
+        <router-link
+          to="/demos"
           class="w50px text-center mx10px text-#aaa hover:text-#000 .dark:text-#aaa dark:hover:text-#fff"
-          ><span class="selection:text-#000 dark:selection:text-#fff"
-            >Demos</span
-          ></a
+          title="demos"
         >
+          <span class="selection:text-#000 dark:selection:text-#fff"
+            >Demos</span
+          >
+        </router-link>
         <a
           href="https://github.com/CodeGetters"
           target="_blank"
           class="iconItem"
-          ><div class="i-grommet-icons:github"></div
-        ></a>
-        <a href="https://gitee.com/fancim" target="_blank" class="iconItem"
+          title="GitHub"
+          ><div class="i-grommet-icons:github"></div>
+        </a>
+        <a
+          href="https://gitee.com/fancim"
+          target="_blank"
+          title="Gitee"
+          class="iconItem"
           ><div class="i-simple-icons:gitee"></div
         ></a>
-        <a href="https://twitter.com/iridescenr_star" class="iconItem"
+        <a href="https://twitter.com/iridescenr_star" title="X" class="iconItem"
           ><div class="i-bx:bxl-twitter"></div
         ></a>
         <a href="" class="iconItem">
@@ -69,14 +84,6 @@ import { JumpLinkTo } from "@/utils/useJump";
 </template>
 
 <style scoped>
-.header {
-  border-bottom: 1px solid #e5e7eb;
-}
-
-.dark .header {
-  border-bottom: 1px solid #5d5f63;
-}
-
 .logo {
   will-change: filter;
   transition: filter 300ms;

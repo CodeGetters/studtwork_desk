@@ -1,6 +1,7 @@
 import logo from "@/assets/images/logo.svg";
 
 export const config = {
+  author: "JohnsonXin",
   layout: {
     header: {
       logo: logo,
@@ -13,7 +14,6 @@ export const config = {
       // ],
     },
     footer: {
-      author: "JohnsonXin",
       startYear: 2023,
     },
   },
