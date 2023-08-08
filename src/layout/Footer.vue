@@ -36,7 +36,7 @@ a:hover {
 }
 
 .dark .protocol::selection,
-a::selection {
+.protocol a::selection {
   color: #ccc;
 }
 </style>
