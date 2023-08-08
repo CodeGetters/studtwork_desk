@@ -28,33 +28,29 @@ import { JumpLinkTo } from "@/utils/useJump";
         </div>
         <span class=".dark:text-#fff">StudTWork</span>
       </div>
-      <div class="menuList flex items-center h40px">
-        <div
-          class="item i-charm:home"
-          title="home"
-          @click="JumpLinkTo('/', {})"
-        >
-          home
-        </div>
-        <div class="item i-jam:blogger-square" title="blog"></div>
-        <div class="item i-prime:box" title="project"></div>
-        <div class="item i-iconoir:yoga" title="project"></div>
-        <div class="item i-bx:bxl-twitter" title="X">
-          <a href="https://twitter.com/iridescenr_star" target="_blank"></a>
-        </div>
-        <div class="item i-grommet-icons:github" title="github">
-          <a href="https://github.com/CodeGetters" target="_blank"></a>
-        </div>
-        <div class="item i-simple-icons:gitee" title="gitee">
-          <a href="https://gitee.com/fancim" target="_blank"></a>
-        </div>
-        <div
-          class="item i-carbon-sun dark:i-carbon-moon"
-          @click="switchTheme()"
-          title="theme"
-        ></div>
-        <div class="item i-ps:rss" title="RSS"></div>
-        <div class="item i-simple-icons:githubsponsors" title="sponsors"></div>
+      <div class="menuList flex items-center h30px">
+        <a href="" class="item"><span>Home</span></a>
+        <a href="" class="item"><span>Blog</span></a>
+        <a href="" class="w80px text-center mx10px"><span>Projects</span></a>
+        <a href="" class="w50px text-center mx10px"><span>Demos</span></a>
+        <a
+          href="https://github.com/CodeGetters"
+          target="_blank"
+          class="iconItem"
+          ><div class="i-grommet-icons:github"></div
+        ></a>
+        <a href="https://gitee.com/fancim" target="_blank" class="iconItem"
+          ><div class="i-simple-icons:gitee"></div
+        ></a>
+        <a href="https://twitter.com/iridescenr_star" class="iconItem"
+          ><div class="i-bx:bxl-twitter"></div
+        ></a>
+        <a href="" class="iconItem">
+          <div class="i-simple-icons:githubsponsors" title="sponsors"></div>
+        </a>
+        <a href="javascript:;" class="iconItem" @click="switchTheme()">
+          <div class="i-carbon-sun dark:i-carbon-moon"></div>
+        </a>
       </div>
     </div>
   </div>
@@ -75,19 +71,27 @@ import { JumpLinkTo } from "@/utils/useJump";
 }
 
 .item {
-  width: 25px;
-  height: 25px;
+  width: 40px;
+  height: 30px;
   color: black;
-  cursor: pointer;
   text-align: center;
   margin-right: 10px;
   margin-left: 10px;
+  line-height: 30px;
 }
 
-.item a {
+.iconItem {
+  width: 30px;
+  height: 30px;
+  color: black;
+  text-align: center;
+  line-height: 30px;
+  margin: 0 10px;
+}
+
+.item span {
   width: 100%;
   height: 100%;
-  display: block;
 }
 
 .dark .item {

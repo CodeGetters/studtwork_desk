@@ -27,3 +27,13 @@ body {
 body::-webkit-scrollbar {
   display: none;
 }
+
+a {
+  color: var(--theme-text-color);
+  text-decoration: none;
+  margin: 0;
+}
+
+.dark a {
+  color: var(--theme-text-color);
+}
