@@ -31,8 +31,20 @@ import { JumpLinkTo } from "@/utils/useJump";
       <div class="menuList flex items-center h30px">
         <a href="" class="item"><span>Home</span></a>
         <a href="" class="item"><span>Blog</span></a>
-        <a href="" class="w80px text-center mx10px"><span>Projects</span></a>
-        <a href="" class="w50px text-center mx10px"><span>Demos</span></a>
+        <a
+          href=""
+          class="w80px text-center mx10px text-#aaa hover:text-#000 .dark:text-#aaa .dark:hover:text-#fff"
+          ><span class="selection:text-#000 dark:selection:text-#fff"
+            >Projects</span
+          ></a
+        >
+        <a
+          href=""
+          class="w50px text-center mx10px text-#aaa hover:text-#000 .dark:text-#aaa dark:hover:text-#fff"
+          ><span class="selection:text-#000 dark:selection:text-#fff"
+            >Demos</span
+          ></a
+        >
         <a
           href="https://github.com/CodeGetters"
           target="_blank"
@@ -73,20 +85,28 @@ import { JumpLinkTo } from "@/utils/useJump";
 .item {
   width: 40px;
   height: 30px;
-  color: black;
+  color: #aaa;
   text-align: center;
   margin-right: 10px;
   margin-left: 10px;
   line-height: 30px;
 }
 
+.item:hover {
+  color: #000;
+}
+
 .iconItem {
   width: 30px;
   height: 30px;
-  color: black;
+  color: #aaa;
   text-align: center;
   line-height: 30px;
   margin: 0 10px;
+}
+
+.iconItem:hover {
+  color: #000;
 }
 
 .item span {
@@ -94,7 +114,21 @@ import { JumpLinkTo } from "@/utils/useJump";
   height: 100%;
 }
 
-.dark .item {
+.dark .item,
+.dark .iconItem {
+  color: #aaa;
+}
+
+.dark .item:hover,
+.dark .iconItem:hover {
+  color: #fff;
+}
+
+.item span::selection {
+  color: #000;
+}
+
+.dark .item span::selection {
   color: #fff;
 }
 </style>

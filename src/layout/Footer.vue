@@ -19,15 +19,11 @@ const { startYear, author } = config.layout.footer;
 </template>
 
 <style scoped>
-a {
-  text-decoration: none;
-}
-
 a:hover {
   text-decoration: underline dotted #8581818a;
 }
 
-.protocol a::selection {
+#Footer .protocol a::selection {
   color: #000;
 }
 
