@@ -2,6 +2,6 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 # 这是自己加的
-echo "--------- 代码预检查 ---------"
+echo "--------- Code precheck ---------"
 
 npx --no-install lint-staged

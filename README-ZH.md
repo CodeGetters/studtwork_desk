@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="/favicon.svg">
+    <img src="/public/favicon.svg">
 </p>
 
 <h1 align="center">StudTWork</h1>
@@ -41,9 +41,7 @@ $ yarn build
 
 ## 贡献
 
-If you would like to work on the TODO project, please submit your pr to the dev branch 👀
-
-Most important: Run a command to check your code before committing it 🤞
+如果您想贡献，你可以查看项目中的 TODO，同时请将您的 pr 提交到 dev 分支👀
 
 ## 交流
 
@@ -64,11 +62,11 @@ Most important: Run a command to check your code before committing it 🤞
 ### 微信 / 支付宝
 
 <div style="display:flex;">
-    <a src="/wechat.jpg">
-        <img src='/wechat.jpg' style="height:300px;margin-right:50px; object-fit:contain" />
+    <a href="./public/wechat.jpg">
+        <img src='./public/wechat.jpg' style="height:300px;margin-right:50px; object-fit:contain" />
     </a>
-    <a src="./public/alipay.jpg">
-        <img src='/alipay.jpg' style="height:300px; object-fit:contain" />
+    <a href="./public/alipay.jpg">
+        <img src='./public/Alipay.jpg' style="height:300px; object-fit:contain" />
     </a>
 </div>
 

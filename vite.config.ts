@@ -1,5 +1,5 @@
 import { defineConfig, loadEnv } from "vite";
-import { basename, dirname, resolve } from "node:path";
+import { resolve } from "node:path";
 import vue from "@vitejs/plugin-vue";
 import ViteDelTool from "vite-plugin-vue-devtools";
 import tsChecker from "vite-plugin-checker";
@@ -50,13 +50,15 @@ export default ({ mode }) => {
       },
     },
     plugins: [
-      vue({
-        include: [/\.vue$/, /\.md$/],
+      Markdown({
+        headEnabled: true,
       }),
-      Markdown(),
       ViteDelTool(),
       UnoCss(),
       ViteCompression(),
+      vue({
+        include: [/\.vue$/, /\.md$/],
+      }),
       AutoImport({
         imports: ["vue", "vue-router", "@vueuse/core", "@vueuse/head"],
       }),

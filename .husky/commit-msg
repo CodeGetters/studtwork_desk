@@ -2,6 +2,6 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 # 自己加的
-echo "--------- 执行commit-msg校验 ---------"
+echo "--------- Run the commit-msg check ---------"
 
 npx --no-install commitlint --edit $1

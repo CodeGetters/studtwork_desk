@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "composite": true,
+    // 是否编译构建引用项目
     "skipLibCheck": true,
     "module": "ESNext",
     "moduleResolution": "bundler",
