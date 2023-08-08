@@ -41,9 +41,7 @@ $ yarn build
 
 ## 贡献
 
-If you would like to work on the TODO project, please submit your pr to the dev branch 👀
-
-Most important: Run a command to check your code before committing it 🤞
+如果您想贡献，你可以查看项目中的 TODO，同时请将您的 pr 提交到 dev 分支👀
 
 ## 交流
 
