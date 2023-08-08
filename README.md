@@ -60,11 +60,11 @@ Sponsor this project to support our better creation. It is recommended to use af
 ### Wechat / Alipay
 
 <div style="display:flex;">
-    <a src="/wechat.jpg">
-        <img src='/wechat.jpg' style="height:300px;margin-right:50px; object-fit:contain" />
+    <a href="http://cdn.reday.asia/images/202308081720863.jpg">
+        <img src='http://cdn.reday.asia/images/202308081720863.jpg' style="height:300px;margin-right:50px; object-fit:contain" />
     </a>
-    <a src="./public/alipay.jpg">
-        <img src='/Alipay.jpg' style="height:300px; object-fit:contain" />
+    <a href="http://cdn.reday.asia/images/202308081719043.jpg">
+        <img src='http://cdn.reday.asia/images/202308081719043.jpg' style="height:300px; object-fit:contain" />
     </a>
 </div>
 
