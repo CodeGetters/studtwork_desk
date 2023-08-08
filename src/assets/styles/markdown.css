@@ -1,0 +1,11 @@
+.markdown-body p a {
+  color: #aaa;
+  text-decoration: underline dashed #aaa;
+}
+
+.markdown-body p a:hover {
+  color: #000;
+}
+.dark .markdown-body p a:hover {
+  color: #fff;
+}

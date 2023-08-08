@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "CascadiaCode";
+  src: url("../fonts/CascadiaCode.ttf");
+}
+
+@font-face {
+  font-family: "CascadiaCodeItalic";
+  src: url("../fonts/CascadiaCodeItalic.ttf");
+}
+
+:root {
+  --theme-text-color: #000;
+}
+:root[class="dark"] {
+  --theme-text-color: #fff;
+}
+
+body {
+  color: #000;
+  font-family: "CascadiaCode";
+}
+
+.dark body {
+  color: #fff;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+}
