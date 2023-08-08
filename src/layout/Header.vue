@@ -73,6 +73,10 @@ import { JumpLinkTo } from "@/utils/useJump";
   border-bottom: 1px solid #e5e7eb;
 }
 
+.dark .header {
+  border-bottom: 1px solid #5d5f63;
+}
+
 .logo {
   will-change: filter;
   transition: filter 300ms;
