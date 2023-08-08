@@ -1,9 +1,6 @@
 <script setup lang="ts">
 import { config } from "@/config/index";
-import { useDark, useToggle } from "@vueuse/core";
-
-const isDark = useDark();
-const switchTheme = useToggle(isDark);
+import { toggleDark } from "@/utils/useTheme";
 
 const logo = config.layout.header.logo;
 import { JumpLinkTo } from "@/utils/useJump";
@@ -75,7 +72,7 @@ import { JumpLinkTo } from "@/utils/useJump";
         <a href="" class="iconItem">
           <div class="i-simple-icons:githubsponsors" title="sponsors"></div>
         </a>
-        <a href="javascript:;" class="iconItem" @click="switchTheme()">
+        <a href="javascript:;" class="toggleTheme iconItem" @click="toggleDark">
           <div class="i-carbon-sun dark:i-carbon-moon"></div>
         </a>
       </div>
@@ -114,6 +111,11 @@ import { JumpLinkTo } from "@/utils/useJump";
   text-align: center;
   line-height: 30px;
   margin: 0 10px;
+}
+
+.toggleTheme {
+  transition: opacity 0.2s ease;
+  opacity: 0.6;
 }
 
 .iconItem:hover {

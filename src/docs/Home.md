@@ -25,4 +25,4 @@ If you enjoy my works, consider sponsoring me on [<span class="i-mdi-light:flash
 
 <br/>
 
-This project was successfully built thanks to <div class="i-devicon:vuejs"/> <div class="i-logos:vitejs"/> <div class="i-logos:vueuse" /><div class="i-vscode-icons:file-type-unocss" /> <div class="i-devicon:tailwindcss"/> <div class="i-radix-icons:vercel-logo"/>
+This project was successfully built thanks to <div class="i-devicon:vuejs"/> <div class="i-logos:vitejs"/> <div class="i-logos:vueuse" /> <div class="i-vscode-icons:file-type-unocss" /> <div class="i-devicon:tailwindcss"/> <div class="i-radix-icons:vercel-logo"/>
