@@ -21,7 +21,7 @@ Outside of programming,I love photography and traveling, and if you happen to li
 
 <br/>
 
-If you enjoy my works, consider sponsoring me on <div class="i-mdi-light:flash" /> [爱发电](https://afdian.net/a/studtwork) or <div class="i-ic:baseline-wechat" /> [wechat](http://cdn.reday.asia/images/202308081720863.jpg) or <div class="i-ant-design:alipay-outlined" /> [Alipay](http://cdn.reday.asia/images/202308081719043.jpg) to keep them sustainable.
+If you enjoy my works, consider sponsoring me on [<span class="i-mdi-light:flash" />爱发电](https://afdian.net/a/studtwork) or [<span class="i-ic:baseline-wechat" />wechat](http://cdn.reday.asia/images/202308081720863.jpg) or [<span class="i-ant-design:alipay-outlined" />Alipay](http://cdn.reday.asia/images/202308081719043.jpg) to keep them sustainable.
 
 <br/>
 
