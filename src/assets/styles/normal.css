@@ -45,6 +45,16 @@ a {
   z-index: 1;
 }
 
+.studtwork-enter-active,
+.studtwork-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.studtwork-enter-from,
+.studtwork-leave-to {
+  opacity: 0;
+}
+
 /* 自定义颜色 需要加上!important;，这里加了渐变色 */
 /* #nprogress .bar {
   background-color: #ffffff !important;

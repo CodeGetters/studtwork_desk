@@ -9,17 +9,24 @@ import {
 
 import { start, done } from "@/utils/nprogress";
 
-const HomePage: RouteComponent = () => import("@/pages/HomePage.vue");
-const NotFound: RouteComponent = () => import("@/pages/NotFound.vue");
+// 不必要的懒加载
+import HomePage from "@/pages/HomePage.vue";
+const IndexLay: RouteComponent = () => import("@/layout/IndexLay.vue");
+const BlogPage: RouteComponent = () => import("@/pages/BlogPage.vue");
+const ProjectPage: RouteComponent = () => import("@/pages/ProjectPage.vue");
+const DemoPage: RouteComponent = () => import("@/pages/DemoPage.vue");
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: "/",
-    component: HomePage,
-  },
-  {
-    path: "/:pathMatch(.*)*",
-    component: NotFound,
+    component: IndexLay,
+    redirect: "/home",
+    children: [
+      { path: "/home", component: HomePage },
+      { path: "/blog", component: BlogPage },
+      { path: "/project", component: ProjectPage },
+      { path: "/demo", component: DemoPage },
+    ],
   },
 ];
 

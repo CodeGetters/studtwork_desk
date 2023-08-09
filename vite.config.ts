@@ -11,7 +11,7 @@ import SVG from "vite-svg-loader";
 
 // https://vitejs.dev/config/
 export default ({ mode }) => {
-  const VITE_BASE_URL = loadEnv(mode, process.cwd()).VITE_BASE_URL;
+  const VITE_BASE_URL: string = loadEnv(mode, process.cwd()).VITE_BASE_URL;
 
   return defineConfig({
     base: "/",

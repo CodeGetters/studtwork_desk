@@ -28,12 +28,12 @@ import { JumpLinkTo } from "@/utils/useJump";
         <router-link to="/" title="home" class="item">
           <span>Home</span>
         </router-link>
-        <router-link to="/" title="blog" class="item">
+        <router-link to="/blog" title="blog" class="item">
           <span>Blog</span>
         </router-link>
 
         <router-link
-          to="/"
+          to="/project"
           title="projects"
           class="w80px text-center mx10px text-#aaa hover:text-#000 .dark:text-#aaa .dark:hover:text-#fff"
         >
@@ -43,7 +43,7 @@ import { JumpLinkTo } from "@/utils/useJump";
         </router-link>
 
         <router-link
-          to="/"
+          to="/demo"
           class="w50px text-center mx10px text-#aaa hover:text-#000 .dark:text-#aaa dark:hover:text-#fff"
           title="demos"
         >
