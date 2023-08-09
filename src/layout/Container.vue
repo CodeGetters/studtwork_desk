@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import Home from "@/docs/Home.md";
+import { defineAsyncComponent } from "vue";
+
+const Home = defineAsyncComponent(() => import("@/docs/Home.md"));
 </script>
 
 <template>
@@ -10,7 +12,9 @@ import Home from "@/docs/Home.md";
   </div>
 </template>
 
-<style scoped>
+<style>
+@import url("@/assets/styles/markdown.css");
+
 p {
   color: #555;
 }

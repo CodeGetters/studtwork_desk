@@ -4948,6 +4948,11 @@ vue-demi@>=0.14.5:
   resolved "https://registry.npmmirror.com/vue-demi/-/vue-demi-0.14.5.tgz#676d0463d1a1266d5ab5cba932e043d8f5f2fbd9"
   integrity sha512-o9NUVpl/YlsGJ7t+xuqJKx8EBGf1quRhCiT6D/J0pfwmk9zUwYkC7yrF4SZCe6fETvSM3UNL2edcbYrSyc4QHA==
 
+vue-lazyload@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.npmmirror.com/vue-lazyload/-/vue-lazyload-3.0.0.tgz#37529064da6ba774e969cc9d86b5418e230b16d4"
+  integrity sha512-h2keL/Rj550dLgesgOtXJS9qOiSMmuJNeVlfNAYV1/IYwOQYaWk5mFJlwRxmZDK9YC5gECcFLYYj7z1lKSf9ug==
+
 vue-router@^4.2.4:
   version "4.2.4"
   resolved "https://registry.npmmirror.com/vue-router/-/vue-router-4.2.4.tgz#382467a7e2923e6a85f015d081e1508052c191b9"

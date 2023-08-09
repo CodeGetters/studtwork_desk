@@ -19,7 +19,7 @@ import { JumpLinkTo } from "@/utils/useJump";
         <div class="logo w40px h40px mr-6px">
           <img
             class="w100% h100% transform transition-800 hover:rotate-180"
-            :src="logo"
+            v-lazy="logo"
             alt="StudTWork"
           />
         </div>
@@ -29,12 +29,12 @@ import { JumpLinkTo } from "@/utils/useJump";
         <router-link to="/" title="home" class="item">
           <span>Home</span>
         </router-link>
-        <router-link to="/blog" title="blog" class="item">
+        <router-link to="/" title="blog" class="item">
           <span>Blog</span>
         </router-link>
 
         <router-link
-          to="/projects"
+          to="/"
           title="projects"
           class="w80px text-center mx10px text-#aaa hover:text-#000 .dark:text-#aaa .dark:hover:text-#fff"
         >
@@ -44,7 +44,7 @@ import { JumpLinkTo } from "@/utils/useJump";
         </router-link>
 
         <router-link
-          to="/demos"
+          to="/"
           class="w50px text-center mx10px text-#aaa hover:text-#000 .dark:text-#aaa dark:hover:text-#fff"
           title="demos"
         >
