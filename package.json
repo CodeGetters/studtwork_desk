@@ -28,6 +28,7 @@
     "@vueuse/core": "^10.3.0",
     "@vueuse/head": "^1.1.26",
     "axios": "^1.4.0",
+    "dayjs": "^1.11.9",
     "nprogress": "^0.2.0",
     "vue": "^3.3.4",
     "vue-lazyload": "^3.0.0",

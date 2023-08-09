@@ -30,5 +30,5 @@
   background-color: aliceblue;
 }
 .markdown-body h1::selection {
-  background-color: aliceblue;
+  background-color: #f0f8ff;
 }
