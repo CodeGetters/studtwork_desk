@@ -1,7 +1,3 @@
-.markdown-body {
-  color: #aaa;
-}
-
 .dark .markdown-body {
   color: #aaa;
 }
@@ -27,6 +23,7 @@
 }
 
 .markdown-body::selection,
+.markdown-body br::selection,
 .markdown-body p::selection,
 .markdown-body a::selection {
   color: #000;

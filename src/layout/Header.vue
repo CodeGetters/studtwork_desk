@@ -66,7 +66,11 @@ import { JumpLinkTo } from "@/utils/useJump";
           class="iconItem"
           ><div class="i-simple-icons:gitee"></div
         ></a>
-        <a href="https://twitter.com/iridescenr_star" title="X" class="iconItem"
+        <a
+          href="https://twitter.com/iridescenr_star"
+          title="X"
+          target="_blank"
+          class="iconItem"
           ><div class="i-bx:bxl-twitter"></div
         ></a>
         <a href="" class="iconItem">

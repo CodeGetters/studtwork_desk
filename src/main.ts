@@ -1,13 +1,14 @@
-import { createApp } from "vue";
-import { createHead } from "@unhead/vue";
-import App from "./App.vue";
-import router from "@/router";
-import lazyLoad from "vue-lazyload";
-import loading from "@/assets/images/loading.gif";
 import "@/assets/styles/normal.css";
 import "@/assets/styles/markdown.css";
 import "normalize.css";
 import "virtual:uno.css";
+
+import { createApp } from "vue";
+import { createHead } from "@unhead/vue";
+import router from "@/router";
+import lazyLoad from "vue-lazyload";
+import loading from "@/assets/images/loading.gif";
+import App from "./App.vue";
 
 const app = createApp(App);
 const head = createHead();
