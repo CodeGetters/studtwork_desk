@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { config } from "@/config/index";
 import { toggleDark } from "@/utils/useTheme";
-
 const logo = config.layout.header.logo;
 import { JumpLinkTo } from "@/utils/useJump";
 </script>
