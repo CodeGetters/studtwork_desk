@@ -5,6 +5,8 @@ import ArticleItem from "@/components/ArticleItem.vue";
 import { formatDayDate } from "@/utils/formatDate";
 import { JumpLinkTo } from "@/utils/useJump";
 import type { articleInfo, getArticles, getData } from "@/types/service";
+import BackPage from "@/components/BackPage.vue";
+
 const article = ref<Array<articleInfo>>();
 
 const getArticleList = async () => {
@@ -32,8 +34,9 @@ onMounted(() => {
         :author="item.author"
         :last-update="item.lastUpdate"
         :readers="item.readers"
-        @click="JumpLinkTo('/viewArticle', { id: 1 })"
+        @click="JumpLinkTo('/viewArticle', { id: item.id })"
       />
     </div>
+    <BackPage />
   </div>
 </template>
