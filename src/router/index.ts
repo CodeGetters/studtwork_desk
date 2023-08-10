@@ -11,7 +11,7 @@ import { start, done } from "@/utils/nprogress";
 
 // 不必要的懒加载
 import HomePage from "@/pages/HomePage.vue";
-const IndexLay: RouteComponent = () => import("@/layout/IndexLay.vue");
+import IndexLay from "@/layout/IndexLay.vue";
 const BlogPage: RouteComponent = () => import("@/pages/BlogPage.vue");
 const ProjectPage: RouteComponent = () => import("@/pages/ProjectPage.vue");
 const DemoPage: RouteComponent = () => import("@/pages/DemoPage.vue");

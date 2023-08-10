@@ -9,7 +9,7 @@ const props = defineProps({
     default: "张三",
   },
   readers: {
-    type: Number,
+    type: String,
     default: 0,
   },
   lastUpdate: {

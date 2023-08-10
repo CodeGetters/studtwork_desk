@@ -4,13 +4,11 @@ import { frontCheck } from "@/api/article";
 import ArticleItem from "@/components/ArticleItem.vue";
 import { formatDayDate } from "@/utils/formatDate";
 import { JumpLinkTo } from "@/utils/useJump";
-const article = ref({});
+import type { articleInfo, getArticles, getData } from "@/types/service";
+const article = ref<Array<articleInfo>>();
 
-// TODO:完善类型声明
 const getArticleList = async () => {
-  const res = await frontCheck().catch((err) => {
-    console.log(err);
-  });
+  const res: getData<getArticles> = await frontCheck();
   article.value = res.data.articleList;
 
   for (let item in article.value) {
