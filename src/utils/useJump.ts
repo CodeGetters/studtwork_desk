@@ -2,10 +2,11 @@ import router from "@/router/index";
 
 export const JumpLinkTo = (
   path: string,
-  paramObj: { [key: string]: string },
+  params: { [key: string]: string | number },
 ) => {
   router.push({
     path,
-    params: paramObj,
+    query: params,
   });
+  console.log(`---path:${path},params:${params}----`);
 };

@@ -7,10 +7,11 @@ import AutoImport from "unplugin-auto-import/vite";
 import UnoCss from "unocss/vite";
 import ViteCompression from "vite-plugin-compression";
 import Markdown from "vite-plugin-vue-markdown";
+import SVG from "vite-svg-loader";
 
 // https://vitejs.dev/config/
 export default ({ mode }) => {
-  const VITE_BASE_URL = loadEnv(mode, process.cwd()).VITE_BASE_URL;
+  const VITE_BASE_URL: string = loadEnv(mode, process.cwd()).VITE_BASE_URL;
 
   return defineConfig({
     base: "/",
@@ -52,12 +53,21 @@ export default ({ mode }) => {
     plugins: [
       Markdown({
         headEnabled: true,
+        exportFrontmatter: false,
+        exposeFrontmatter: false,
+        exposeExcerpt: false,
+        markdownItOptions: {
+          quotes: "\"\"''",
+        },
       }),
       ViteDelTool(),
       UnoCss(),
       ViteCompression(),
       vue({
         include: [/\.vue$/, /\.md$/],
+      }),
+      SVG({
+        defaultImport: "url",
       }),
       AutoImport({
         imports: ["vue", "vue-router", "@vueuse/core", "@vueuse/head"],

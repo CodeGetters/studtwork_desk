@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { config } from "@/config/index";
 import { toggleDark } from "@/utils/useTheme";
-
 const logo = config.layout.header.logo;
 import { JumpLinkTo } from "@/utils/useJump";
 </script>
@@ -19,7 +18,7 @@ import { JumpLinkTo } from "@/utils/useJump";
         <div class="logo w40px h40px mr-6px">
           <img
             class="w100% h100% transform transition-800 hover:rotate-180"
-            :src="logo"
+            v-lazy="logo"
             alt="StudTWork"
           />
         </div>
@@ -34,7 +33,7 @@ import { JumpLinkTo } from "@/utils/useJump";
         </router-link>
 
         <router-link
-          to="/projects"
+          to="/project"
           title="projects"
           class="w80px text-center mx10px text-#aaa hover:text-#000 .dark:text-#aaa .dark:hover:text-#fff"
         >
@@ -44,7 +43,7 @@ import { JumpLinkTo } from "@/utils/useJump";
         </router-link>
 
         <router-link
-          to="/demos"
+          to="/demo"
           class="w50px text-center mx10px text-#aaa hover:text-#000 .dark:text-#aaa dark:hover:text-#fff"
           title="demos"
         >
@@ -66,7 +65,11 @@ import { JumpLinkTo } from "@/utils/useJump";
           class="iconItem"
           ><div class="i-simple-icons:gitee"></div
         ></a>
-        <a href="https://twitter.com/iridescenr_star" title="X" class="iconItem"
+        <a
+          href="https://twitter.com/iridescenr_star"
+          title="X"
+          target="_blank"
+          class="iconItem"
           ><div class="i-bx:bxl-twitter"></div
         ></a>
         <a href="" class="iconItem">

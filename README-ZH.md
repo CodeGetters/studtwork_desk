@@ -43,6 +43,8 @@ $ yarn build
 
 如果您想贡献，你可以查看项目中的 TODO，同时请将您的 pr 提交到 dev 分支👀
 
+[emoji rule](https://github.com/liuchengxu/git-commit-emoji-cn)
+
 ## 交流
 
 我们建议使用 [issue](https://github.com/CodeGetters/studtwork_desk/issues) 进行问题反馈，或其他:

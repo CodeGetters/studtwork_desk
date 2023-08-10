@@ -1,7 +1,3 @@
-.markdown-body {
-  color: #aaa;
-}
-
 .dark .markdown-body {
   color: #aaa;
 }
@@ -27,11 +23,12 @@
 }
 
 .markdown-body::selection,
+.markdown-body br::selection,
 .markdown-body p::selection,
 .markdown-body a::selection {
   color: #000;
   background-color: aliceblue;
 }
 .markdown-body h1::selection {
-  background-color: aliceblue;
+  background-color: #f0f8ff;
 }

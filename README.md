@@ -39,7 +39,7 @@ $ yarn build
 
 If you would like to work on the TODO project, please submit your pr to the dev branch 👀
 
-Most important: Run a command to check your code before committing it 🤞
+[emoji rule](https://github.com/liuchengxu/git-commit-emoji-cn)
 
 ## Community
 
