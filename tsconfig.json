@@ -8,12 +8,13 @@
     // 将 class 声明中的字段语义从 [[Set]] 变更到 [[Define]]
     "useDefineForClassFields": true,
     "module": "ESNext",
-    "lib": ["ESNext", "DOM"],
+    "lib": ["ES2020", "ESNext", "DOM"],
     "skipLibCheck": true,
 
     /* Bundler mode */
     // 模块解析策略
-    "moduleResolution": "Bundler",
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,

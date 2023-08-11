@@ -45,9 +45,8 @@ a {
   z-index: 1;
 }
 
-.studtwork-enter-active,
-.studtwork-leave-active {
-  transition: opacity 0.3s ease;
+.studtwork-enter-active {
+  transition: opacity 1s ease;
 }
 
 .studtwork-enter-from,

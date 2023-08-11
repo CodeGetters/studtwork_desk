@@ -3,9 +3,8 @@ import { config } from "@/config/index";
 import { toggleDark } from "@/utils/useTheme";
 const logo = config.layout.header.logo;
 import { JumpLinkTo } from "@/utils/useJump";
-
 import { useI18n } from "vue-i18n";
-const { locale } = useI18n();
+const { locale, t } = useI18n();
 
 /**
  * @description 语言切换
@@ -38,10 +37,10 @@ const changeLang = () => {
       </div>
       <div class="menuList flex items-center h30px">
         <router-link to="/" title="home" class="item">
-          <span>{{ $t("layout.header.home") }}</span>
+          <span>{{ t("layout.header.home") }}</span>
         </router-link>
         <router-link to="/blog" title="blog" class="item">
-          <span>{{ $t("layout.header.blog") }}</span>
+          <span>{{ t("layout.header.blog") }}</span>
         </router-link>
 
         <router-link
@@ -50,7 +49,7 @@ const changeLang = () => {
           class="w80px text-center mx10px text-#aaa hover:text-#000 .dark:text-#aaa .dark:hover:text-#fff"
         >
           <span class="selection:text-#000 dark:selection:text-#fff">{{
-            $t("layout.header.project")
+            t("layout.header.project")
           }}</span>
         </router-link>
 
