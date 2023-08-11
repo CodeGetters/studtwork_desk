@@ -2,9 +2,9 @@ import { createRouter, createWebHistory } from "vue-router";
 
 import type {
   RouterOptions,
-  Router,
-  RouteComponent,
   RouteRecordRaw,
+  RouteComponent,
+  Router,
 } from "vue-router";
 
 import { start, done } from "@/utils/nprogress";
