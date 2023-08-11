@@ -5,21 +5,11 @@ import "virtual:uno.css";
 
 import { createApp } from "vue";
 import { createHead } from "@unhead/vue";
-import { setupI18n } from "@/locales/index";
-import en from "@/locales/en.json";
 import router from "@/router";
 import lazyLoad from "vue-lazyload";
 import loading from "@/assets/images/loading.gif";
 import App from "./App.vue";
-
-const i18n = setupI18n({
-  legacy: false,
-  locale: "en",
-  fallbackLocale: "en",
-  messages: {
-    en,
-  },
-});
+import { i18n } from "@/locales";
 
 const app = createApp(App);
 const head = createHead();

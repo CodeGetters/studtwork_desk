@@ -1,3 +1,10 @@
 {
-  "hello": "hello"
+  "hello": "hello",
+  "layout": {
+    "header": {
+      "home": "Home",
+      "blog": "Blogs",
+      "project": "Projects"
+    }
+  }
 }

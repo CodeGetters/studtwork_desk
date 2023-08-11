@@ -3,6 +3,18 @@ import { config } from "@/config/index";
 import { toggleDark } from "@/utils/useTheme";
 const logo = config.layout.header.logo;
 import { JumpLinkTo } from "@/utils/useJump";
+
+import { useI18n } from "vue-i18n";
+const { locale } = useI18n();
+
+/**
+ * @description 语言切换
+ */
+const changeLang = () => {
+  locale.value === "zh-cn"
+    ? (locale.value = "en-us")
+    : (locale.value = "zh-cn");
+};
 </script>
 
 <template>
@@ -26,10 +38,10 @@ import { JumpLinkTo } from "@/utils/useJump";
       </div>
       <div class="menuList flex items-center h30px">
         <router-link to="/" title="home" class="item">
-          <span>Home</span>
+          <span>{{ $t("layout.header.home") }}</span>
         </router-link>
         <router-link to="/blog" title="blog" class="item">
-          <span>Blog</span>
+          <span>{{ $t("layout.header.blog") }}</span>
         </router-link>
 
         <router-link
@@ -37,9 +49,9 @@ import { JumpLinkTo } from "@/utils/useJump";
           title="projects"
           class="w80px text-center mx10px text-#aaa hover:text-#000 .dark:text-#aaa .dark:hover:text-#fff"
         >
-          <span class="selection:text-#000 dark:selection:text-#fff"
-            >Projects</span
-          >
+          <span class="selection:text-#000 dark:selection:text-#fff">{{
+            $t("layout.header.project")
+          }}</span>
         </router-link>
 
         <router-link
@@ -77,6 +89,9 @@ import { JumpLinkTo } from "@/utils/useJump";
         </a>
         <a href="javascript:;" class="toggleTheme iconItem" @click="toggleDark">
           <div class="i-carbon-sun dark:i-carbon-moon"></div>
+        </a>
+        <a href="javascript:;" class="iconItem" @click="changeLang()">
+          <div class="i-material-symbols:translate"></div>
         </a>
       </div>
     </div>
