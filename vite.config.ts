@@ -8,6 +8,7 @@ import UnoCss from "unocss/vite";
 import ViteCompression from "vite-plugin-compression";
 import Markdown from "vite-plugin-vue-markdown";
 import SVG from "vite-svg-loader";
+import vueI18n from "@intlify/vite-plugin-vue-i18n";
 
 // https://vitejs.dev/config/
 export default ({ mode }) => {
@@ -63,6 +64,9 @@ export default ({ mode }) => {
       ViteDelTool(),
       UnoCss(),
       ViteCompression(),
+      vueI18n({
+        include: resolve(__dirname, "./src/locales/**.json"),
+      }),
       vue({
         include: [/\.vue$/, /\.md$/],
       }),

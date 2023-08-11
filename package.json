@@ -31,6 +31,7 @@
     "dayjs": "^1.11.9",
     "nprogress": "^0.2.0",
     "vue": "^3.3.4",
+    "vue-i18n": "^9.2.2",
     "vue-lazyload": "^3.0.0",
     "vue-router": "^4.2.4"
   },
@@ -39,6 +40,7 @@
     "@bytemd/vue-next": "^1.21.0",
     "@commitlint/cli": "^17.6.7",
     "@commitlint/config-conventional": "^17.6.7",
+    "@intlify/vite-plugin-vue-i18n": "^7.0.0",
     "@types/node": "^20.4.8",
     "@types/nprogress": "^0.2.0",
     "@unhead/vue": "^1.2.2",
